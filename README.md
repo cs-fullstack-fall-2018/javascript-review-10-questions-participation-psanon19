@@ -83,6 +83,8 @@ Option 4:
 
 An error message will be displayed because there are multiple script tags in the body.
 
+***Number 1***
+
 <hr/>
 
 ### JavaScript Execution Context
@@ -139,6 +141,8 @@ function doAction(data, size) {
 
 4) This#is#a#test that illustrates
 
+***Number 3***
+
 <hr/>
 
 ### Try/Catch/Throw
@@ -179,6 +183,8 @@ Executed the finally block
 Executed the finally block
 
 4) Could not call the function to log the info!
+
+***Number 2***
 
 <hr/>
 
@@ -225,6 +231,8 @@ The script in the following HTML page prompts the user for values and shows the 
 3) The "result" is: 31
 
 4) The "result" is: 20
+
+***number 1***
 
 <hr/>
 
@@ -309,6 +317,8 @@ type of w: object
 type of m: undefined
 type of n: undefined
 ```
+
+***Option 2***
 <hr/>
 
 ### HTML5 Form Elements how fields are submitted) (required, email, password, reset, etc.)
@@ -359,6 +369,8 @@ Temp: 66
 
 4) http://localhost:35132/Account/FormTest?fullName=&emailAdress=test%40gmail.com&mainPhone=555-123-4587&tempPreference=66
 
+
+***option 3***
 <hr/>
 
 ### Extra on Array Functions: sort, filter, forEach, etc.
@@ -439,7 +451,7 @@ Name: Lisa, Salary: 33000.00
 Name: tom, Salary: 8000.00 
 Name: Tim, Salary: 14000.00
 ```
-
+***Option 1***
 <hr/>
 
 ### DOM and BOM
@@ -462,13 +474,13 @@ The following script displays information about the screen:
 
 * For each of the following statements about these properties, answer True or False for the following questions:
 
-1) screen.availHeight > screen.height
+1) screen.availHeight > screen.height ***True***
 
-2) screen.colorDepth > screen.pixelDepth
+2) screen.colorDepth > screen.pixelDepth ***True***
 
-3) screen.availHeight < screen.height
+3) screen.availHeight < screen.height ***True***
 
-4) screen.colorDepth < screen.pixelDepth
+4) screen.colorDepth < screen.pixelDepth ***False***
 
 
 <hr/>
@@ -484,11 +496,11 @@ var d2 = new Date('March 11, 2005 02:30:00');
 
 Answer the following questions? 
 
-Question 1) The getDate() function will return: ___
+Question 1) The getDate() function will return: ___***March 11, 2005***
 
-Question 2) The getUTCDate() function will return: ___
+Question 2) The getUTCDate() function will return: ___***March 11, 2005 02:30:00***
 
-Question 3) The getMonth() function will return: ___
+Question 3) The getMonth() function will return: ___***March 11***
 
 
 <hr/>
