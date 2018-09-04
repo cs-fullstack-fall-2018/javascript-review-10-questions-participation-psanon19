@@ -1,6 +1,8 @@
 # JavaScript_Review_10_Questions_Participation
 10 JavaScript Questions to cover with the class
 
+KEY: You correctly answered 1 out of 9
+4 correct needed for points
 <hr/>
 
 ### JavaScript Template Literals
@@ -85,6 +87,8 @@ An error message will be displayed because there are multiple script tags in the
 
 ***Number 1***
 
+KEY: Incorrect (Correct answer was 3)
+
 <hr/>
 
 ### JavaScript Execution Context
@@ -127,7 +131,7 @@ function doAction(data, size) {
          var newData = data.substring(0, size);
          var result = newData.split(' ');
          return result;
-} 
+}
 ```
 
 * What will be displayed when you preview this page in the browser?
@@ -142,13 +146,14 @@ function doAction(data, size) {
 4) This#is#a#test that illustrates
 
 ***Number 3***
+KEY: Incorrect (Correct answer was 4)
 
 <hr/>
 
 ### Try/Catch/Throw
 MSJS practice question 19
 
-The body of the HTML page contains the following script: 
+The body of the HTML page contains the following script:
 ```
     <script>
              var fileInfo = 'Could not process the file';
@@ -185,6 +190,8 @@ Executed the finally block
 4) Could not call the function to log the info!
 
 ***Number 2***
+
+KEY: Incorrect (Correct answer was 3)
 
 <hr/>
 
@@ -233,6 +240,8 @@ The script in the following HTML page prompts the user for values and shows the 
 4) The "result" is: 20
 
 ***number 1***
+
+KEY: Incorrect (Correct answer was 3 )
 
 <hr/>
 
@@ -319,6 +328,8 @@ type of n: undefined
 ```
 
 ***Option 2***
+
+KEY: Incorrect (Correct answer was 3)
 <hr/>
 
 ### HTML5 Form Elements how fields are submitted) (required, email, password, reset, etc.)
@@ -343,7 +354,7 @@ A form on a page contains the following markup:
          <div>
                   <label for="temp">Temp preference:</label>
                   32
-                  <input type="range" id="temp" name="tempPreference" 
+                  <input type="range" id="temp" name="tempPreference"
                        value="65" min="32" max="96" step="2">
                   96
          </div>
@@ -371,6 +382,8 @@ Temp: 66
 
 
 ***option 3***
+
+KEY:CORRECT
 <hr/>
 
 ### Extra on Array Functions: sort, filter, forEach, etc.
@@ -407,7 +420,7 @@ You have the following HTML page:
                   employees.forEach(function (item) {
                            console.log(`Name: ${item.name}, Salary: ${item.salary.toFixed(2)}`);
                   })
-       
+
          </script>
 </body>
 </html>
@@ -418,40 +431,42 @@ You have the following HTML page:
 Option 1:
 ```
 Name: Bryan, Salary: 7000.00
-Name: tom, Salary: 8000.00  
-Name: James, Salary: 10000.00  
+Name: tom, Salary: 8000.00
+Name: James, Salary: 10000.00
 Name: Tim, Salary: 14000.00
-Name: Jessica, Salary: 21000.00  
+Name: Jessica, Salary: 21000.00
 Name: Lisa, Salary: 33000.00
 ```
 Option 2:
 ```
-Name: James, Salary: 7000.00  
-Name: Bryan, Salary: 10000.00  
-Name: Tim, Salary: 21000.00  
-Name: Jessica, Salary: 33000.00  
-Name: Lisa, Salary: 14000.00  
+Name: James, Salary: 7000.00
+Name: Bryan, Salary: 10000.00
+Name: Tim, Salary: 21000.00
+Name: Jessica, Salary: 33000.00
+Name: Lisa, Salary: 14000.00
 Name: tom, Salary: 8000.00
 ```
 Option 3
 ```
-Name: Bryan, Salary: 7000.00  
-Name: James, Salary: 10000.00  
-Name: Jessica, Salary: 21000.00  
-Name: Lisa, Salary: 33000.00  
-Name: Tim, Salary: 14000.00  
+Name: Bryan, Salary: 7000.00
+Name: James, Salary: 10000.00
+Name: Jessica, Salary: 21000.00
+Name: Lisa, Salary: 33000.00
+Name: Tim, Salary: 14000.00
 Name: tom, Salary: 8000.00
 ```
 Option 4:
 ```
-Name: Bryan, Salary: 7000.00  
-Name: James, Salary: 10000.00  
-Name: Jessica, Salary: 21000.00  
-Name: Lisa, Salary: 33000.00 
-Name: tom, Salary: 8000.00 
+Name: Bryan, Salary: 7000.00
+Name: James, Salary: 10000.00
+Name: Jessica, Salary: 21000.00
+Name: Lisa, Salary: 33000.00
+Name: tom, Salary: 8000.00
 Name: Tim, Salary: 14000.00
 ```
 ***Option 1***
+
+KEY: Incorrect (Correct answer was 3)
 <hr/>
 
 ### DOM and BOM
@@ -474,6 +489,8 @@ The following script displays information about the screen:
 
 * For each of the following statements about these properties, answer True or False for the following questions:
 
+KEY: Incorrect (Correct answer was F, F, T, T)
+
 1) screen.availHeight > screen.height ***True***
 
 2) screen.colorDepth > screen.pixelDepth ***True***
@@ -488,13 +505,15 @@ The following script displays information about the screen:
 ### Dates
 MSJS practice question 44
 
+n/a - Removed: KEY
+
 A date is declared as follows:
 
 ```
 var d2 = new Date('March 11, 2005 02:30:00');
 ```
 
-Answer the following questions? 
+Answer the following questions?
 
 Question 1) The getDate() function will return: ___***March 11, 2005***
 
@@ -547,7 +566,7 @@ You preview the following page in the browser:
             if (i <= 0) return;
             return names[i - 1];
         }
-        
+
         names.sort();
         var index = findIndex('orange');
 
@@ -558,6 +577,8 @@ You preview the following page in the browser:
 ```
 
 * Which word will be displayed on the screen?
+
+KEY: Incorrect/No answer (Correct answer was c)
 
 1) Yellow
 
